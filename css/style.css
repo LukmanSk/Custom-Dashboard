@@ -24,3 +24,43 @@ font-family: 'Public Sans', sans-serif;
 */
 html {
   font-family: "Public Sans", sans-serif; }
+
+.header {
+  padding: 0.6rem 2rem; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav__icons {
+    width: 1.2rem; }
+  .nav__icon {
+    width: 1.2rem; }
+
+.user-icon {
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden; }
+  .user-icon img {
+    width: 100%;
+    height: 100%; }
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem; }
+
+.notification {
+  position: relative; }
+  .notification .tooltip {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.5rem;
+    background-color: #ff4842;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.75rem; }
